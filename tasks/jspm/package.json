@@ -1,0 +1,36 @@
+{
+  "name": "gulp-jspm-nimedev",
+  "version": "1.0.1",
+  "description": "Gulp functions to bundle files with jspm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nimedev/gulp-tasks-nimedev"
+  },
+  "keywords": [
+    "gulp",
+    "gulp tasks",
+    "gulp jspm",
+    "jspm",
+    "jspm bundle"
+  ],
+  "author": {
+    "name": "Nicolas Mejia",
+    "email": "nimedev@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nimedev/gulp-tasks-nimedev/issues"
+  },
+  "homepage": "https://github.com/nimedev/gulp-tasks-nimedev",
+  "engines": {
+    "node": ">=6.0.0 <7.0.0"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-shell": "^0.5.2"
+  }
+}

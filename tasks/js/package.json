@@ -1,0 +1,40 @@
+{
+  "name": "gulp-js-nimedev",
+  "version": "1.1.1",
+  "description": "Concat and uglify javascript files from a path to other using gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nimedev/gulp-tasks-nimedev"
+  },
+  "keywords": [
+    "gulp",
+    "gulp tasks",
+    "gulp js",
+    "gulp javascript",
+    "javascript concat",
+    "javascript uglify",
+    "javascript minify"
+  ],
+  "author": {
+    "name": "Nicolas Mejia",
+    "email": "nimedev@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nimedev/gulp-tasks-nimedev/issues"
+  },
+  "homepage": "https://github.com/nimedev/gulp-tasks-nimedev",
+  "engines": {
+    "node": ">=6.0.0 <7.0.0"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-if": "^2.0.1",
+    "gulp-uglify": "^1.5.3"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "gulp-tasks-nimedev",
+  "version": "1.0.0",
+  "description": "common gulp tasks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nimedev/gulp-tasks-nimedev"
+  },
+  "keywords": [
+    "gulp",
+    "gulp tasks"
+  ],
+  "author": {
+    "name": "Nicolas Mejia",
+    "email": "nimedev@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nimedev/gulp-tasks-nimedev/issues"
+  },
+  "homepage": "https://github.com/nimedev/gulp-tasks-nimedev",
+  "engines": {
+    "node": ">=6.0.0 <7.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^2.9.0",
+    "eslint-config-nimedev": "^1.0.0"
+  }
+}

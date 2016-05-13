@@ -1,0 +1,48 @@
+{
+  "name": "gulp-postcss-nimedev",
+  "version": "1.0.0",
+  "description": "Process css files with PostCSS and copy the resulting file in a new folder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nimedev/gulp-tasks-nimedev"
+  },
+  "keywords": [
+    "gulp",
+    "gulp tasks",
+    "gulp postcss",
+    "postcss"
+  ],
+  "author": {
+    "name": "Nicolas Mejia",
+    "email": "nimedev@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nimedev/gulp-tasks-nimedev/issues"
+  },
+  "homepage": "https://github.com/nimedev/gulp-tasks-nimedev",
+  "engines": {
+    "node": ">=6.0.0 <7.0.0"
+  },
+  "dependencies": {
+    "autoprefixer": "^6.3.6",
+    "cssnano": "^3.5.2",
+    "gulp": "^3.9.1",
+    "gulp-if": "^2.0.1",
+    "gulp-postcss": "^6.1.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "postcss-calc": "^5.2.1",
+    "postcss-color-function": "^2.0.1",
+    "postcss-custom-media": "^5.0.1",
+    "postcss-custom-properties": "^5.0.1",
+    "postcss-import": "^8.1.2",
+    "postcss-mixins": "^4.0.1",
+    "postcss-nested": "^1.0.0",
+    "stylelint": "^6.3.3"
+  }
+}
