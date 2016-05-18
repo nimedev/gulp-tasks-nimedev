@@ -1,6 +1,6 @@
 {
   "name": "gulp-html-nimedev",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Optimize html files and copy in a new folder",
   "main": "index.js",
   "scripts": {
@@ -28,9 +28,9 @@
     "node": ">=6.0.0 <7.0.0"
   },
   "dependencies": {
-    "gulp": "^3.9.1",
-    "gulp-html-replace": "^1.5.5",
-    "gulp-htmlmin": "^2.0.0",
-    "gulp-inline-source": "^2.1.0"
+    "gulp": "3.9.1",
+    "gulp-html-replace": "1.5.5",
+    "gulp-htmlmin": "2.0.0",
+    "gulp-inline-source": "2.1.0"
   }
 }
