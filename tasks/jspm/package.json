@@ -1,6 +1,6 @@
 {
   "name": "gulp-jspm-nimedev",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Gulp functions to bundle files with jspm",
   "main": "index.js",
   "scripts": {
@@ -30,7 +30,7 @@
     "node": ">=6.0.0 <7.0.0"
   },
   "dependencies": {
-    "gulp": "3.9.1",
-    "gulp-shell": "0.5.2"
+    "gulp": "=3.9.1",
+    "gulp-shell": "=0.5.2"
   }
 }

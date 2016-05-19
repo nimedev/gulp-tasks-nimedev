@@ -1,5 +1,10 @@
 # Change Log
 
+## [1.0.1] - 2016-05-19
+
+### Changed
+- Fix dependencies declarations in package.json
+
 ## [1.0.1]
 
 * Update dependencies

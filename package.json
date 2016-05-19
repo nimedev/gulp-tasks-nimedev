@@ -27,7 +27,7 @@
     "node": ">=6.0.0 <7.0.0"
   },
   "devDependencies": {
-    "eslint": "2.10.2",
-    "eslint-config-nimedev": "1.0.0"
+    "eslint": "=2.10.2",
+    "eslint-config-nimedev": "=1.0.0"
   }
 }
