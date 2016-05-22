@@ -1,5 +1,10 @@
 # Change Log
 
+## [1.0.2] - 2016-05-22
+
+### Changed
+- Update typings
+
 ## [1.0.1] - 2016-05-19
 
 ### Changed
