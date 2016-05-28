@@ -24,7 +24,10 @@ const postcssTask = require('gulp-postcss-nimedev')
 const options = {
   src: 'src/styles/style.css',
   dest: 'dist/assets/css',
-  baseName: 'style',
+  outName: {
+    basename: 'style',
+    extname: '.css'
+  },
   minify: true
 }
 
@@ -33,6 +36,21 @@ gulp.task('css:dev', postcssTask(options, true))
 ```
 
 *Note: src and dest in options objects follow the same rules of gulp.src() and gulp.dest() arguments*
+
+Option to process file one by one without merge:
+
+```js
+const options = {
+  src: 'src/styles/style.css',
+  dest: file => {
+    return file.base
+  },
+  outName: {
+    extname: '.min.css'
+  },
+  minify: true
+}
+```
 
 ## [Changelog](CHANGELOG.md)
 

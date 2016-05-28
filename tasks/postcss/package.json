@@ -1,6 +1,6 @@
 {
   "name": "gulp-postcss-nimedev",
-  "version": "1.0.2",
+  "version": "1.2.0",
   "description": "Process css files with PostCSS and copy the resulting file in a new folder",
   "main": "index.js",
   "scripts": {

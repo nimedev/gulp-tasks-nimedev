@@ -1,5 +1,10 @@
 # Change Log
 
+## [1.1.0] - 2016-05-27
+
+### Changed
+- Change baseName property by outName in postcss task module.
+
 ## [1.0.2] - 2016-05-22
 
 ### Changed

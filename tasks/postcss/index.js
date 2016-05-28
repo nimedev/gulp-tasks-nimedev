@@ -29,7 +29,10 @@ const stylelint = require('stylelint')
       dest: 'dest/path',
 
       // Name of the output file without extension
-      baseName: style,
+      outName: {
+        basename: 'style',
+        extname: '.css'
+      },
 
       // Use cssnano
       minify: true
@@ -40,7 +43,10 @@ const stylelint = require('stylelint')
 module.exports = ({
   src = 'src',
   dest = 'dist',
-  baseName = 'style',
+  outName = {
+    basename: 'style',
+    extname: '.css'
+  },
   minify = true
 } = {}, useSourcemaps = false) => {
   // PostCSS settings
@@ -64,10 +70,7 @@ module.exports = ({
   // Do css task
   return () => {
     gulp.src(src)
-      .pipe(rename({
-        basename: baseName,
-        extname: '.css'
-      }))
+      .pipe(rename(outName))
       .pipe(gulpIf(useSourcemaps, sourcemaps.init()))
       .pipe(postcss(processors))
       .pipe(gulpIf(useSourcemaps, sourcemaps.write('.')))
