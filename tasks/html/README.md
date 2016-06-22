@@ -24,6 +24,7 @@ const htmlTask = require('gulp-html-nimedev')
 const options = {
   src: 'src/index.html',
   dest: 'dist',
+  tmp: 'tmp',
 
   // Used to replace script declaration in index.html file
   replace: {

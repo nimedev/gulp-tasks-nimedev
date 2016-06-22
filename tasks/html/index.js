@@ -18,6 +18,9 @@ const inlineSource = require('gulp-inline-source')
       // Destination path
       dest: 'dest/path',
 
+      // Temporal folder used to save html files before minification
+      tmp: 'tmp',
+
       // Tag used to log the result of task in console
       replace: {
         'js': [
@@ -29,12 +32,12 @@ const inlineSource = require('gulp-inline-source')
     }
  * @returns a callback function for gulp task
  */
-module.exports = ({src = 'src', dest = 'dist', replace = {}} = {}) => {
+module.exports = ({src = 'src', dest = 'dist', tmp = 'tmp', replace = {}} = {}) => {
   return () => {
     gulp.src(src)
       .pipe(inlineSource())
       .pipe(htmlReplace(replace))
-      .pipe(gulp.dest('.tmp'))
+      .pipe(gulp.dest(tmp))
       .pipe(htmlmin({
         collapseWhitespace: true,
         removeComments: true
