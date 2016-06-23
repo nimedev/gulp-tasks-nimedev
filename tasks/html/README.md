@@ -36,7 +36,7 @@ const options = {
 }
 
 // Create a gulp task to optimize index.html file
-gulp.task('html', htmlTask(options))
+gulp.task('html', () => htmlTask(options))
 ```
 
 *Note: src and dest in options objects follow the same rules of gulp.src() and gulp.dest() arguments*

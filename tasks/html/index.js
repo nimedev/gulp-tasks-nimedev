@@ -32,16 +32,18 @@ const inlineSource = require('gulp-inline-source')
     }
  * @returns a callback function for gulp task
  */
-module.exports = ({src = 'src', dest = 'dist', tmp = 'tmp', replace = {}} = {}) => {
-  return () => {
-    gulp.src(src)
-      .pipe(inlineSource())
-      .pipe(htmlReplace(replace))
-      .pipe(gulp.dest(tmp))
-      .pipe(htmlmin({
-        collapseWhitespace: true,
-        removeComments: true
-      }))
-      .pipe(gulp.dest(dest))
-  }
+module.exports = ({
+  src = 'src',
+  dest = 'dist',
+  tmp = 'tmp',
+  replace = {}} = {}) => {
+  return gulp.src(src)
+    .pipe(inlineSource())
+    .pipe(htmlReplace(replace))
+    .pipe(gulp.dest(tmp))
+    .pipe(htmlmin({
+      collapseWhitespace: true,
+      removeComments: true
+    }))
+    .pipe(gulp.dest(dest))
 }
