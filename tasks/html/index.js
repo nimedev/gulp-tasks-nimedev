@@ -36,7 +36,8 @@ module.exports = ({
   src = 'src',
   dest = 'dist',
   tmp = 'tmp',
-  replace = {}} = {}) => {
+  replace = {}
+} = {}) => {
   return gulp.src(src)
     .pipe(inlineSource())
     .pipe(htmlReplace(replace))

@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.3.0] - 2016-06-22
+
+### Changed
+- Default function returns a gulp pipe instead a function in copy, html, js and postcss modules.
+
+
 ## [1.2.0] - 2016-06-21
 
 ### Updated
@@ -18,20 +24,20 @@
 ## [1.0.2] - 2016-05-22
 
 ### Changed
-- Update typings
+- Update typings.
 
 
 ## [1.0.1] - 2016-05-19
 
 ### Changed
-- Fix dependencies declarations in package.json
+- Fix dependencies declarations in package.json.
 
 
 ## [1.0.1]
 
-* Update dependencies
+* Update dependencies.
 
 
 ## [1.0.0]
 
-* Initial release
+* Initial release.
