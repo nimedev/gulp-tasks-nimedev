@@ -33,7 +33,7 @@ const options = {
 
 // Create a gulp task to process javascript files from options.src path
 // to options.dest path
-gulp.task('jspm-system', jsTask(options))
+gulp.task('jspm-system', () => jsTask(options))
 ```
 
 *Note: src and dest in options objects follow the same rules of gulp.src() and gulp.dest() arguments*

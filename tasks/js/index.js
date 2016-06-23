@@ -31,10 +31,8 @@ module.exports = ({
   baseName = 'app',
   uglifyJS = true
 } = {}) => {
-  return () => {
-    gulp.src(src)
-      .pipe(gulpIf(uglifyJS, uglify()))
-      .pipe(concat(`${baseName}.js`))
-      .pipe(gulp.dest(dest))
-  }
+  return gulp.src(src)
+    .pipe(gulpIf(uglifyJS, uglify()))
+    .pipe(concat(`${baseName}.js`))
+    .pipe(gulp.dest(dest))
 }
