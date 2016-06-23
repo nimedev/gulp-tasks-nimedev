@@ -1,6 +1,6 @@
 {
   "name": "gulp-postcss-nimedev",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Process css files with PostCSS and copy the resulting file in a new folder",
   "main": "index.js",
   "scripts": {
@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "autoprefixer": "=6.3.6",
-    "cssnano": "=3.6.2",
+    "cssnano": "=3.7.1",
     "gulp": "=3.9.1",
     "gulp-if": "=2.0.1",
     "gulp-postcss": "=6.1.1",
@@ -41,8 +41,8 @@
     "postcss-custom-media": "=5.0.1",
     "postcss-custom-properties": "=5.0.1",
     "postcss-import": "=8.1.2",
-    "postcss-mixins": "=4.0.1",
+    "postcss-mixins": "=4.0.2",
     "postcss-nested": "=1.0.0",
-    "stylelint": "=6.4.1"
+    "stylelint": "=6.7.0"
   }
 }

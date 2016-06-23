@@ -32,7 +32,7 @@ const options = {
 }
 
 // Create a gulp task to process css files from options.src path
-gulp.task('css:dev', postcssTask(options, true))
+gulp.task('css:dev', () => postcssTask(options, true))
 ```
 
 *Note: src and dest in options objects follow the same rules of gulp.src() and gulp.dest() arguments*

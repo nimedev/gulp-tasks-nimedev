@@ -68,12 +68,10 @@ module.exports = ({
   minify && processors.push(cssnano({ reduceIdents: { keyframes: false } }))
 
   // Do css task
-  return () => {
-    gulp.src(src)
-      .pipe(rename(outName))
-      .pipe(gulpIf(useSourcemaps, sourcemaps.init()))
-      .pipe(postcss(processors))
-      .pipe(gulpIf(useSourcemaps, sourcemaps.write('.')))
-      .pipe(gulp.dest(dest))
-  }
+  return gulp.src(src)
+    .pipe(rename(outName))
+    .pipe(gulpIf(useSourcemaps, sourcemaps.init()))
+    .pipe(postcss(processors))
+    .pipe(gulpIf(useSourcemaps, sourcemaps.write('.')))
+    .pipe(gulp.dest(dest))
 }
