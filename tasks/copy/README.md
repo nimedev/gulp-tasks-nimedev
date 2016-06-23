@@ -27,7 +27,7 @@ const options = {
 }
 
 // Create a gulp task to copy files from options.src path to options.dest path
-gulp.task('fonts', copyTask(options))
+gulp.task('fonts', () => copyTask(options))
 ```
 
 *Note: src and dest in options objects follow the same rules of gulp.src() and gulp.dest() arguments*

@@ -17,8 +17,6 @@ const gulp = require('gulp')
  * @returns a callback function for gulp task
  */
 module.exports = ({src = 'src', dest = 'dist'} = {}) => {
-  return () => {
-    gulp.src(src)
-      .pipe(gulp.dest(dest))
-  }
+  return gulp.src(src)
+    .pipe(gulp.dest(dest))
 }
