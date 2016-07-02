@@ -7,6 +7,7 @@
 - [html](tasks/html/README.md)
 - [js](tasks/js/README.md)
 - [jspm](tasks/jspm/README.md)
+- [object-file](tasks/object-file/README.md)
 - [postcss](tasks/postcss/README.md)
 
 ## [Changelog](CHANGELOG.md)

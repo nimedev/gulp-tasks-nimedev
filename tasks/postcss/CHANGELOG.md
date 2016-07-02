@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.3.1] - 2016-07-02
+
+### Updated
+- Update stylelint and postcss-mixins dependencies.
+
+
 ## [1.3.0] - 2016-06-22
 
 ### Changed

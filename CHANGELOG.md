@@ -1,5 +1,14 @@
 # Change Log
 
+## [1.4.0] - 2016-07-02
+
+### Added
+- Add object-file module.
+
+### Updated
+- Update dependencies to postcss module.
+
+
 ## [1.3.0] - 2016-06-22
 
 ### Changed
