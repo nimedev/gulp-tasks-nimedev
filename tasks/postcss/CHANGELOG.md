@@ -1,5 +1,14 @@
 # Change Log
 
+## [1.3.2] - 2016-07-05
+
+### Removed
+- Remove zindex optimization to cssnano plugin.
+
+### Updated
+- Update autoprefixer package.
+
+
 ## [1.3.1] - 2016-07-02
 
 ### Updated

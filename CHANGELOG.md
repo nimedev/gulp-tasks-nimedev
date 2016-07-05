@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.4.1] - 2016-07-05
+
+### Updated
+- Update postcss module.
+
+
 ## [1.4.0] - 2016-07-02
 
 ### Added

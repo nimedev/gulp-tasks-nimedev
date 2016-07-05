@@ -65,7 +65,10 @@ module.exports = ({
   ]
 
   // Add cssnano to processors list if minify is enabled
-  minify && processors.push(cssnano({ reduceIdents: { keyframes: false } }))
+  minify && processors.push(cssnano({
+    reduceIdents: { keyframes: false },
+    zindex: false
+  }))
 
   // Do css task
   return gulp.src(src)
