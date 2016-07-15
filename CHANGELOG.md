@@ -1,5 +1,12 @@
 # Change Log
 
+## [1.4.2] - 2016-07-15
+
+### Updated
+- Update dependencies in postcss module.
+- Update eslint and eslint-config-nimedev dependencies.
+
+
 ## [1.4.1] - 2016-07-05
 
 ### Updated

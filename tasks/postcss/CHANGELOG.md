@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.4.0] - 2016-07-15
+
+### Updated
+- Update stylelint, cssnano and postcss-calc in postcss module.
+
+
 ## [1.3.2] - 2016-07-05
 
 ### Removed

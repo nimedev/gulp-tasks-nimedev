@@ -1,9 +1,9 @@
 {
   "name": "gulp-tasks-nimedev",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "common gulp tasks",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "update": "rm -rf node_modules && npm install && npm outdated"
   },
   "repository": {
     "type": "git",
@@ -26,7 +26,7 @@
     "node": ">=6.0.0 <7.0.0"
   },
   "devDependencies": {
-    "eslint": "=2.13.1",
-    "eslint-config-nimedev": "=1.0.0"
+    "eslint": "3.0.1",
+    "eslint-config-nimedev": "3.0.0"
   }
 }
