@@ -1,5 +1,14 @@
 # Change Log
 
+## [1.4.3] - 2016-08-02
+
+### Modified
+- Use index file only to export the modules.
+
+### Updated
+- Update dependencies.
+
+
 ## [1.4.2] - 2016-07-15
 
 ### Updated

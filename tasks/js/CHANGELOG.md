@@ -1,5 +1,14 @@
 # Change Log
 
+## [1.2.1] - 2016-08-02
+
+### Modified
+- Use index file only to export the module.
+
+### Updated
+- Upgrade gulp-uglify from 1.5.4 to 2.0.0.
+
+
 ## [1.2.0] - 2016-06-22
 
 ### Changed

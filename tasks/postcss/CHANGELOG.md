@@ -1,5 +1,14 @@
 # Change Log
 
+## [1.4.1] - 2016-08-02
+
+### Modified
+- Use index file only to export the module.
+
+### Updated
+- Upgrade stylelint package.
+
+
 ## [1.4.0] - 2016-07-15
 
 ### Updated

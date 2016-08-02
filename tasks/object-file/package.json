@@ -1,10 +1,10 @@
 {
   "name": "gulp-object-file-nimedev",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create a exportable object in a file",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "update": "rm -rf node_modules && npm install && npm outdated"
   },
   "repository": {
     "type": "git",
@@ -30,7 +30,7 @@
     "node": ">=6.0.0 <7.0.0"
   },
   "dependencies": {
-    "gulp": "=3.9.1",
-    "gulp-file": "=0.3.0"
+    "gulp": "3.9.1",
+    "gulp-file": "0.3.0"
   }
 }

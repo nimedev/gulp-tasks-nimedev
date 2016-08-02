@@ -1,5 +1,17 @@
 # Change Log
 
+## [1.2.2] - 2016-08-02
+
+### Fixed
+- Fix bug exporting the module.
+
+
+## [1.2.1] - 2016-08-02
+
+### Modified
+- Use index file only to export the module.
+
+
 ## [1.2.0] - 2016-06-22
 
 ### Changed

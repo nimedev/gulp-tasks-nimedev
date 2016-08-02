@@ -1,10 +1,10 @@
 {
   "name": "gulp-jspm-nimedev",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Gulp functions to bundle files with jspm",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "update": "rm -rf node_modules && npm install && npm outdated"
   },
   "repository": {
     "type": "git",
@@ -30,7 +30,7 @@
     "node": ">=6.0.0 <7.0.0"
   },
   "dependencies": {
-    "gulp": "=3.9.1",
-    "gulp-shell": "=0.5.2"
+    "gulp": "3.9.1",
+    "gulp-shell": "0.5.2"
   }
 }

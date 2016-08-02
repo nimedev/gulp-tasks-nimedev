@@ -1,5 +1,15 @@
-logs
-node_modules
-typings
+# See http://help.github.com/ignore-files/ for more about ignoring files.
 
-*.log
+# dependencies
+node_modules
+
+# IDEs and editors
+
+# misc
+typings
+npm-debug.log
+npm-debug.log.*
+
+# System Files
+.DS_Store
+Thumbs.db

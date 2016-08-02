@@ -1,10 +1,10 @@
 {
   "name": "gulp-js-nimedev",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Concat and uglify javascript files from a path to other using gulp",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "update": "rm -rf node_modules && npm install && npm outdated"
   },
   "repository": {
     "type": "git",
@@ -32,9 +32,9 @@
     "node": ">=6.0.0 <7.0.0"
   },
   "dependencies": {
-    "gulp": "=3.9.1",
-    "gulp-concat": "=2.6.0",
-    "gulp-if": "=2.0.1",
-    "gulp-uglify": "=1.5.4"
+    "gulp": "3.9.1",
+    "gulp-concat": "2.6.0",
+    "gulp-if": "2.0.1",
+    "gulp-uglify": "2.0.0"
   }
 }

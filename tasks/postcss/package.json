@@ -1,6 +1,6 @@
 {
   "name": "gulp-postcss-nimedev",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Process css files with PostCSS and copy the resulting file in a new folder",
   "main": "index.js",
   "scripts": {
@@ -43,6 +43,6 @@
     "postcss-import": "8.1.2",
     "postcss-mixins": "5.0.0",
     "postcss-nested": "1.0.0",
-    "stylelint": "7.0.2"
+    "stylelint": "7.1.0"
   }
 }
